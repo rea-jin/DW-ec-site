@@ -13,9 +13,20 @@ h3 {
   max-width: 1200px;
   margin: 0 auto;
 }
-/*header ---------------------------------------*/
+/*navbar ---------------------------------------*/
 nav .navbar {
   height: 100px;
+  padding: 20px;
+}
+.navbar-nav {
+    align-items: center;
+}
+.dropdown {
+    margin: 0;
+}
+/*header ---------------------------------------*/
+.carousel {
+    background-color: efefef !important;
 }
 .header-image {
   object-fit: cover;
@@ -150,4 +161,7 @@ nav .navbar {
 .footer__bar {
   background-color: azure;
   padding-top: 13px;
+}
+.carousel-caption>h3 {
+    text-shadow: 2px 2px 1px #005600;
 }
