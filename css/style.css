@@ -1,194 +1,153 @@
 @charset "utf-8";
-
 /*共通 ---------------------------------------*/
-
 h2 {
-    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
-    font-style: normal;
-    font-weight: 400;
+  font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-style: normal;
+  font-weight: 400;
 }
 h3 {
-    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
-    margin-bottom: 19px;
+  font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  margin-bottom: 19px;
 }
 .container-fluid {
-	max-width: 1200px;
-	margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 /*header ---------------------------------------*/
 nav .navbar {
-	height: 100px;
+  height: 100px;
 }
 .header-image {
-	object-fit: cover;
-	overflow: hidden;
-	min-width: 500px;
+  object-fit: cover;
+  overflow: hidden;
+  min-width: 500px;
 }
-
 .header__title {
-	vertical-align: middle;
-	margin: auto;
-	
+  vertical-align: middle;
+  margin: auto;
 }
 .dropdown {
-    margin-top: 2%;
-    margin-bottom: 8%;
+  margin-top: 2%;
+  margin-bottom: 8%;
 }
-
-
 .carousel-caption {
-	color: darkgoldenrod;
+  color: darkgoldenrod;
 }
-
+.carousel-item img {
+  object-fit: cover;
+}
 /*categorys -------------------------------------*/
-
 .global__nav {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .global__nav a {
-	margin: 0;
-	padding: 1%;
+  margin: 0;
+  padding: 1%;
 }
 .global__nav li {
-	margin: 1%;
-	padding: 10px 5px;
-	line-height: 30px;
-	height: 50px;
-	text-align: center;
-	background-color: antiquewhite;
-	font-size: 0.9rem;
+  margin: 1%;
+  padding: 10px 5px;
+  line-height: 30px;
+  height: 50px;
+  text-align: center;
+  background-color: antiquewhite;
+  font-size: 0.9rem;
 }
-@media screen and (max-width: 576px){
-	.global__nav li{
-			letter-spacing: 5px;
-	font-weight: bold;
-	}
-	.sns__link ul {
-		with: 200px;
-		margin: 0 auto;
-	}
-
+@media screen and (max-width: 576px) {
+  .global__nav li {
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+  .sns__link ul {
+    with: 200px;
+    margin: 0 auto;
+  }
 }
-
 /*contents -------------------------------------*/
-
 .section__title {
-    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
-    font-weight: bold;
-    padding-bottom: 6px;
-    border-bottom-style: solid;
-    border-bottom-color: #001E55;
-    border-collapse: separate;
-    border-spacing: 4px 9px;
-    margin-bottom: 12px;
-	margin-top: 15px;
+  font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-weight: bold;
+  padding-bottom: 6px;
+  border-bottom-style: solid;
+  border-bottom-color: #001E55;
+  border-collapse: separate;
+  border-spacing: 4px 9px;
+  margin-bottom: 12px;
+  margin-top: 15px;
 }
-
 .button__title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-    margin: 5% auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 5% auto;
 }
-
 .card-img-top {
-	max-width: 500px;
+  max-width: 500px;
 }
-
 .card {
-	text-align: center;
+  text-align: center;
 }
-
 .card-img-top {
-	display: inline-block;
-	margin: 0 auto;
+  display: inline-block;
+  margin: 0 auto;
 }
-
 .detail {
-	margin-left: 10%;
-	border-bottom: 1px solid #444;
+  margin-left: 10%;
+  border-bottom: 1px solid #444;
 }
-
 .item__title {
-    margin-top: 25px;
-	background-color: antiquewhite;
-	padding: 5px 0px 5px 15px;
-	margin-top: 30px;
+  margin-top: 25px;
+  background-color: antiquewhite;
+  padding: 5px 0px 5px 15px;
+  margin-top: 30px;
 }
-
 /*sidebar ---------------------------------------*/
-
-.sns__link ul, .news ul{
-	list-style: none;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	/*float: left;*/
+.sidebar-1, .sidebar-2 {
+  padding-top: 50px;
+}
+.sns__link ul, .news ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
 }
 .sns__link ul li {
-	float: left;
-	margin: 5px 10px;
+  float: left;
+  margin: 5px 10px;
 }
-
 .sidebar__title {
-	text-align: center;
-	margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
-
-
 .sns__link, .news {
-		border: 1px solid #444;
-	border-radius: 10px;
-padding: 0 15px;
-	max-width: 600px;
-	margin: 0 auto;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 0 15px;
+  max-width: 600px;
+  margin: 0 auto;
 }
-
-
 .rank__title {
-	display: inline-block;
+  display: inline-block;
 }
-
 .rank__item {
-	margin: 10px auto;
+  margin: 10px auto;
 }
 .rank__item img {
-	display: inline-block;
-	margin: 0 auto;
+  display: inline-block;
+  margin: 0 auto;
 }
-
 .news {
-	border: 1px  solid #444;
-	border-radius: 10px;
+  border: 1px solid #444;
+  border-radius: 10px;
 }
 .news li p {
-	font-size:0.9em;
+  font-size: 0.9em;
 }
-
 /*footer ---------------------------------------*/
-
 .footer__bar {
-    background-color: azure;
-    padding-top: 13px;
-}
-.carousel-item img{
-	object-fit: cover;
-}
-
-.global__nav {
-	
-}
-
-.bg-light {
-	
-}
-
-.nav-link {
-	
-}
-
-.sidebar-1, .sidebar-2 {
-	padding-top: 50px;
+  background-color: azure;
+  padding-top: 13px;
 }
