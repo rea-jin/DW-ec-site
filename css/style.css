@@ -16,7 +16,9 @@ h3 {
 	margin: 0 auto;
 }
 /*header ---------------------------------------*/
-
+nav .navbar {
+	height: 100px;
+}
 .header-image {
 	object-fit: cover;
 	overflow: hidden;
@@ -177,4 +179,16 @@ padding: 0 15px;
 
 .global__nav {
 	
+}
+
+.bg-light {
+	
+}
+
+.nav-link {
+	
+}
+
+.sidebar-1, .sidebar-2 {
+	padding-top: 50px;
 }

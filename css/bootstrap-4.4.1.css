@@ -4255,7 +4255,12 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-item {
+	display: inline-block;
+	height: 10px;
   margin-bottom: -1px;
+	vertical-align: middle;
+	line-height: 100px;
+	padding-top: 20%
 }
 
 .nav-tabs .nav-link {
@@ -4320,6 +4325,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
+	height: 100px;
   position: relative;
   display: -ms-flexbox;
   display: flex;
