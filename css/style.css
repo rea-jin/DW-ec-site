@@ -22,7 +22,7 @@ nav .navbar {
     align-items: center;
 }
 .dropdown {
-    margin: 0;
+    margin: 0 !important;
 }
 /*header ---------------------------------------*/
 .carousel {
@@ -139,6 +139,10 @@ nav .navbar {
   padding: 0 15px;
   max-width: 600px;
   margin: 0 auto;
+    text-align: center;
+}
+.news>ul>li {
+    text-align: left;
 }
 .rank__title {
   display: inline-block;
@@ -164,4 +168,8 @@ nav .navbar {
 }
 .carousel-caption>h3 {
     text-shadow: 2px 2px 1px #005600;
+}
+
+input[number] {
+width: 50px;    
 }
