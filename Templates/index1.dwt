@@ -113,17 +113,17 @@
           <div class="dropdown show">
             <div class="dropdown show col-lg-5"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Size </a>
               <div class="dropdown-menu">
-               <h6 class="dropdown-header">black</h6>
-                <h6 class="dropdown-header">grey</h6>
-                <h6 class="dropdown-header">white</h6> </div>
+               <h6 class="dropdown-header">S</h6>
+                <h6 class="dropdown-header">M</h6>
+                <h6 class="dropdown-header">L</h6> </div>
             </div>
           </div>
           <div class="dropdown show">
             <div class="dropdown show col-lg-5"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Color </a>
               <div class="dropdown-menu">
-                <h6 class="dropdown-header">S</h6>
-                <h6 class="dropdown-header">M</h6>
-                <h6 class="dropdown-header">L</h6>
+                <h6 class="dropdown-header">Black</h6>
+                <h6 class="dropdown-header">White</h6>
+                <h6 class="dropdown-header">Grey</h6>
             </div>
           </div>
           number of items
@@ -132,6 +132,7 @@
           <button type="button" class="btn btn-info button__title">Add Cart</button>
           <span class="detail"> &gt;&gt;詳しく見る </span> </div>
       </div>
+        </div>
       <h5 class="item__title">Tops Polo Shirt&nbsp;</h5>
       <div class="row item-part">
         <div class="col-sm-6"><img src="../images/product-image-1716405017.jpg" class="img-fluid" alt="tops grey"> </div>
@@ -154,9 +155,9 @@
           <div class="dropdown show">
             <div class="dropdown show col-lg-5"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Color </a>
               <div class="dropdown-menu">
-               <h6 class="dropdown-header">black</h6>
-                <h6 class="dropdown-header">grey</h6>
-                <h6 class="dropdown-header">white</h6>
+               <h6 class="dropdown-header">Black</h6>
+                <h6 class="dropdown-header">Grey</h6>
+                <h6 class="dropdown-header">White</h6>
             </div>
           </div>
           number of items
@@ -186,9 +187,8 @@
           <div class="dropdown show">
             <div class="dropdown show col-lg-5"> <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Color </a>
               <div class="dropdown-menu">
-                <h6 class="dropdown-header">S</h6>
-                <h6 class="dropdown-header">M</h6>
-                <h6 class="dropdown-header">L</h6>
+                <h6 class="dropdown-header">Brown</h6>
+    
             </div>
           </div>
           number of items 
